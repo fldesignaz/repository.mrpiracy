@@ -101,8 +101,8 @@ class mrpiracy:
 		definicoes.vista_menu()
 	def favoritosMenu(self):
 		controlo.addDir('Filmes Favoritos', self.API_SITE+'favoritos.php?action=filmes&qualidade='+definicoes.getQualidade(), 'favoritos', os.path.join(controlo.artFolder, controlo.skin, 'favoritos.png'))
-		controlo.addDir('Séries Favoritas', self.API_SITE+'favoritos.php?action=series', 'favoritos', os.path.join(controlo.artFolder, controlo.skin, 'agendados.png'))
-		controlo.addDir('Animes Favoritos', self.API_SITE+'favoritos.php?action=animes', 'favoritos', os.path.join(controlo.artFolder, controlo.skin, 'notificacoes.png'))
+		controlo.addDir('Séries Favoritas', self.API_SITE+'favoritos.php?action=series', 'favoritos', os.path.join(controlo.artFolder, controlo.skin, 'favoritos.png'))
+		controlo.addDir('Animes Favoritos', self.API_SITE+'favoritos.php?action=animes', 'favoritos', os.path.join(controlo.artFolder, controlo.skin, 'favoritos.png'))
 		definicoes.vista_menu()
 	def verdepoisMenu(self):
 		controlo.addDir('Filmes Agendados', self.API_SITE+'verdepois.php?action=filmes&qualidade='+definicoes.getQualidade(), 'verdepois', os.path.join(controlo.artFolder, controlo.skin, 'agendados.png'))
