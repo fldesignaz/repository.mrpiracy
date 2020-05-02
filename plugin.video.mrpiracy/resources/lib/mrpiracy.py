@@ -72,7 +72,7 @@ class mrpiracy:
 		controlo.addDir('Filmes por Ano', self.API_SITE+'filmes.php?action=ano', 'listagemAnos', os.path.join(controlo.artFolder, controlo.skin, 'ano.png'))
 		controlo.addDir('Filmes por Genero', self.API_SITE+'filmes.php?action=categoria', 'listagemGeneros', os.path.join(controlo.artFolder, controlo.skin, 'generos.png'))
 		controlo.addDir('Filmes Portugueses', self.API_SITE+'filmes.php?action=lingua&locale=PT-PT&kids=2', 'filmes', os.path.join(controlo.artFolder, controlo.skin, 'fipt.png'))
-		controlo.addDir('Filmes por Idioma', self.API_SITE+'filmes.php?action=lingua', 'listagemIdiomas', os.path.join(controlo.artFolder, controlo.skin, 'filmes.png'))
+		controlo.addDir('Filmes por Idioma', self.API_SITE+'filmes.php?action=lingua', 'listagemIdiomas', os.path.join(controlo.artFolder, controlo.skin, 'filid.png'))
 		#controlo.addDir('Filmes por Ranking IMDB', self.API_SITE+'filmes/imdbRank/qualidade/'+definicoes.getQualidade(), 'filmes', os.path.join(controlo.artFolder, controlo.skin, 'filmes.png'))
 		#controlo.addDir('Filmes para Crianças', self.API_SITE+'filmes/pt/qualidade/'+definicoes.getQualidade(), 'filmes', os.path.join(controlo.artFolder, controlo.skin, 'filmes.png'))
 		definicoes.vista_menu()
@@ -88,7 +88,7 @@ class mrpiracy:
 		controlo.addDir('Séries por Ano', self.API_SITE+'series.php?action=ano', 'listagemAnos', os.path.join(controlo.artFolder, controlo.skin, 'ano.png'))
 		controlo.addDir('Séries por Genero', self.API_SITE+'series.php?action=categoria', 'listagemGeneros', os.path.join(controlo.artFolder, controlo.skin, 'generos.png'))
 		controlo.addDir('Séries Portuguesas', self.API_SITE+'series.php?action=lingua&locale=PT-PT&kids=2', 'series', os.path.join(controlo.artFolder, controlo.skin, 'sept.png'))
-		controlo.addDir('Séries por Idioma', self.API_SITE+'series.php?action=lingua', 'listagemIdiomas', os.path.join(controlo.artFolder, controlo.skin, 'series.png'))
+		controlo.addDir('Séries por Idioma', self.API_SITE+'series.php?action=lingua', 'listagemIdiomas', os.path.join(controlo.artFolder, controlo.skin, 'seid.png'))
 		#controlo.addDir('Séries por Ranking IMDB', self.API_SITE+'series/imdbRank', 'series', os.path.join(controlo.artFolder, controlo.skin, 'series.png'))
 		definicoes.vista_menu()
 	def menuAnimes(self):
