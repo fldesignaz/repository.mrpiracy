@@ -99,8 +99,8 @@ class mrpiracy:
 		#controlo.addDir('Animes por Ranking IMDB', self.API_SITE+'animes/imdbRank', 'animes', os.path.join(controlo.artFolder, controlo.skin, 'generos.png'))
 		definicoes.vista_menu()
 	def menuKids(self):
-		controlo.addDir('Filmes Infatis', self.API_SITE+'filmes.php?action=lingua&locale=PT-PT&kids=1', 'filmes', os.path.join(controlo.artFolder, controlo.skin, 'fiinf.png'))
-		controlo.addDir('Séries Infatis', self.API_SITE+'series.php?action=lingua&locale=PT-PT&kids=1', 'series', os.path.join(controlo.artFolder, controlo.skin, 'seinf.png'))
+		controlo.addDir('Filmes Infantis', self.API_SITE+'filmes.php?action=lingua&locale=PT-PT&kids=1', 'filmes', os.path.join(controlo.artFolder, controlo.skin, 'fiinf.png'))
+		controlo.addDir('Séries Infantis', self.API_SITE+'series.php?action=lingua&locale=PT-PT&kids=1', 'series', os.path.join(controlo.artFolder, controlo.skin, 'seinf.png'))
 		definicoes.vista_menu()
 	def conta(self):
 		controlo.addDir('Favoritos', self.API_SITE+'favoritos.php', 'favoritosMenu', os.path.join(controlo.artFolder, controlo.skin, 'favoritos.png'))
