@@ -38,7 +38,7 @@ class mrpiracy:
 			controlo.addDir('Séries', self.API_SITE+'series', 'menuSeries', os.path.join(controlo.artFolder, controlo.skin, 'series.png'))
 			controlo.addDir('Animes', self.API_SITE+'animes', 'menuAnimes', os.path.join(controlo.artFolder, controlo.skin, 'animes.png'))
 			controlo.addDir('Pesquisa', self.API_SITE+'pesquisa.php', 'pesquisa', os.path.join(controlo.artFolder, controlo.skin, 'procurar.png'))
-			controlo.addDir('Zona Infantil', '', 'menuKids', os.path.join(controlo.artFolder, controlo.skin, 'animes.png'))
+			controlo.addDir('Zona Infantil', '', 'menuKids', os.path.join(controlo.artFolder, controlo.skin, 'zoin.png'))
 			controlo.addDir('', '', '', os.path.join(controlo.artFolder, controlo.skin, 'nada.png'))
 			if Trakt.loggedIn():
 				self.getTrakt()
