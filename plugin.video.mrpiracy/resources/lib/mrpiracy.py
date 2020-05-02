@@ -43,7 +43,7 @@ class mrpiracy:
 			if Trakt.loggedIn():
 				self.getTrakt()
 				#+ self.getNumNotificacoes()   ---- controlo.addDir('Trakt', self.API_SITE+'me', 'menuTrakt', os.path.join(controlo.artFolder, controlo.skin, 'trakt.png'))
-			controlo.addDir('A Minha Conta ', self.API_SITE+'me', 'conta', os.path.join(controlo.artFolder, controlo.skin, 'definicoes.png'))
+			controlo.addDir('A Minha Conta ', self.API_SITE+'me', 'conta', os.path.join(controlo.artFolder, controlo.skin, 'conta.png'))
 			controlo.addDir('Definições', self.API_SITE, 'definicoes', os.path.join(controlo.artFolder, controlo.skin, 'definicoes.png'))
 			
 			
